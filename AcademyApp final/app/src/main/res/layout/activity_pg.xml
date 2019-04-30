@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_margin="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UG Programme"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#0563c2"
+        />
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.codesgood.views.JustifiedTextView
+            android:lineSpacingExtra="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1. There will be no upper age limit for UG programme in CLAT 2018."
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="7dp"
+            android:text=" 2. As regards minimum percentage of marks in the
+      qualifying examination"
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="17dp"
+            android:lineSpacingExtra="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forty five percent (45%) marks in case of candidates belonging to unreserved/obc/specially abled persons(SAP) and other categories"
+            />
+        <com.codesgood.views.JustifiedTextView
+
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="17dp"
+            android:lineSpacingExtra="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forty percent(40%) marks in case of candidates belonging to scheduled Caste/Scheduled tribe (SC/ST) Categories"
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="3. Candidates who are appearing in the qalifying examination in March/April,2018 are also eligible to appear in CLAT-2018 online examination.However they shall be required to produce an evidence of their passing the qualifying examination at the time of admission,Failing which they shall lose their right to be considered for admission"
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. The Result of the qualifying examination,Shall be submitted by the candidate at the time of admission failing which the Candidate shall be ineligible for admission to the course."
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. In case of equal marks,The break of tie shall be by the following procedure and order as under"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

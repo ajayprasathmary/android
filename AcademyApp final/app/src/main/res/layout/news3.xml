@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New National Law University Established in Jabalpur"
+            android:textColor="#080bf4"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            />
+
+        <com.codesgood.views.JustifiedTextView
+
+            android:id="@+id/justifiedtest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="7dp"
+            android:padding="10dp"
+            android:text="New National Law University has been established at Jabalpur Recently.The New Dharmashastra National Law University has taken the number of national law universities in india to 22.Dipak Misra,Chief Justice of india had laid down the foundation stone for this law university."
+            android:textSize="15dp" />
+        <com.codesgood.views.JustifiedTextView
+
+            android:id="@+id/justifiedtes1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="7dp"
+            android:text="According to reports,Dharmashastra National Law University will start its first academic session from this year itself and has been already included in the CLAT fold.The admission to the Dharmashastra National Law University will be on the Basis of Candidate’s performance in CLAT 2018. however,From the next academic session, Admission to NLU Jabalpur will be on the merit-cum-Preference basis."
+            android:padding="10dp"/>
+        <com.codesgood.views.JustifiedTextView
+            android:id="@+id/justifiedtes2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="The Admission procedure for Dharmashastra National Law University,Jabalpur will start from 6th July 2018.The total number of seats offered for admission will be 120. out of the total seats, 50% of the seats are reserved for students belonging to Madhya Pradesh.
+
+The New Law University is the second NLU in the state of Madhya Pradesh after NLU bhopal.For the current academic year,DNLU Jabalpur will be functional from Bharat Ratna Bhim Rao Ambedkar Institute of telecom training at Jabalpur.The New University has been established as per the order passed by Madhya Pradesh high court earlier this year."
+            android:lineSpacingExtra="7dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

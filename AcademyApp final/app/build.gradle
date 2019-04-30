@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.compunetconnections.academy"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation    'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation'com.google.firebase:firebase-messaging:12.0.1'
+    implementation'com.squareup.okhttp:okhttp:2.5.0'
+    implementation 'com.synnapps:carouselview:0.1.5'
+    implementation 'com.github.barteksc:android-pdf-viewer:3.1.0-beta.1'
+    implementation 'com.codesgood:justifiedtextview:1.1.0'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,198 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text=" Speed and Accuracy "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_two"
+        android:layout_marginEnd="10dp"
+        android:padding="7dp"
+        android:lineSpacingExtra="7dp"
+        android:text="The essential factor which will definitely help you make it to the merit list is maintaining speed and accuracy in the exam.Since the exam is of 2 hours in which 150 questions need to be solved,The Candidate should try to solve the questions within a minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text=" Time management  "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_two"
+        android:layout_marginEnd="10dp"
+        android:padding="7dp"
+        android:lineSpacingExtra="7dp"
+        android:text="This is the most imperative parameter to clear the exam. Manage your time carefully, select the questions you solve first, keeping in mind your stronger areas of study."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text=" Practice  "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_two"
+        android:layout_marginEnd="10dp"
+        android:justificationMode="inter_word"
+        android:padding="5dp"
+        android:lineSpacingExtra="7dp"
+        android:text="Always try to solve the questions which are less time consuming.Practice as much as you can,it is one of the most important parameter.Try to solve as many MCQ questions as possible to get a hold of the pattern.Keep practicing questions till the last day.This will improve your performance and will help you tremendously with time management."
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text=" Avoid last minute preparation  "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_two"
+        android:layout_marginEnd="10dp"
+        android:padding="5dp"
+        android:lineSpacingExtra="7dp"
+        android:justificationMode="inter_word"
+        android:text="Read and revise all the topics thoroughly.Do not start preparing and reading new topics in last few days of the exam.Just revise the ones you have already prepared."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text=" Make use of memory aids  "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_two"
+        android:layout_marginEnd="10dp"
+        android:padding="7dp"
+        android:lineSpacingExtra="7dp"
+        android:justificationMode="inter_word"
+        android:text="Make use of short-term techniques to revise the syllabus like Flashcards. This technique will help in reducing your time of going through entire syllabus."
+           android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text=" Revision "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_two"
+        android:layout_marginEnd="10dp"
+        android:padding="7dp"
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="7dp"
+        android:text="Solving previous year question paper can be beneficial at the time of CLAT preparation. Keep revising in addition to studying new topics."
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text=" Set a goal "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_two"
+        android:layout_marginEnd="10dp"
+        android:padding="7dp"
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="7dp"
+        android:text="Categorization and division of topics as per the assigned time help in achieve your set target."
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text=" Be confident "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.codesgood.views.JustifiedTextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_two"
+        android:layout_marginEnd="10dp"
+        android:padding="7dp"
+        android:lineSpacingExtra="7dp"
+        android:justificationMode="inter_word"
+        android:text="All the appearing candidates should remain calm and confident.
+  To avoid last minute hassle,The Candidate should keep their admit card and stationary at one place.Candidate should avoid unnecessary tension and exam fear."
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

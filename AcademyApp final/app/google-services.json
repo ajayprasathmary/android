@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "611927757532",
+    "firebase_url": "https://fire-9c7a6.firebaseio.com",
+    "project_id": "fire-9c7a6",
+    "storage_bucket": "fire-9c7a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611927757532:android:8b4bc2a76498c5ba",
+        "android_client_info": {
+          "package_name": "com.bala28195gmail.fire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611927757532-5quac4c9rc3o2l1hfbiuajcqgjn4n831.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7idilrZ6zjH5riHTl8CnWOGnc351we9c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611927757532:android:146cc1e837b2da46",
+        "android_client_info": {
+          "package_name": "com.compunetconnections.academy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611927757532-5quac4c9rc3o2l1hfbiuajcqgjn4n831.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7idilrZ6zjH5riHTl8CnWOGnc351we9c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

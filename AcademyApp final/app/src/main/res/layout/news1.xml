@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#080bf4"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="CLAT 2019: Higher Application Fee for BPL Category"
+        />
+
+
+    <com.codesgood.views.JustifiedTextView
+
+        android:id="@+id/justifiedtest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="7dp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        android:text="CLAT 2019 application fee for BPL (Below Poverty Line) category has been fixed at Rs. 3,500.Until last year, There was no mention of BPL Candidates application fee for CLAT exam."
+        android:textSize="15dp" />
+
+    <com.codesgood.views.JustifiedTextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="7dp"
+        android:padding="10dp"
+        android:text="The consortium of National Law Universities (NLU Consortium) has been receiving wide criticism for fixing a higher application fee for CLAT 2019 for students belonging to BPL (Below Poverty Line) category. As per the official instructions uploaded on the 0ficial website, CLAT 2019 application fee for SC/ ST/ BPL category is Rs.3,500 while the application fee for general category is Rs.4,000. A student belonging to BPL category can’t afford to pay Rs.3,500 towards CLAT 2019 application fee."
+        android:textSize="15dp" />
+
+    <com.codesgood.views.JustifiedTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:lineSpacingExtra="7dp"
+        android:textSize="15dp"
+        android:text="The Issue of CLAT 2019 application fee for BPL category has become a serious concern now.Until last year,There was No mention of BPL Candidates
+         application fee for CLAT exam.The officials have specifically included BPL category in the instructions this year."/>
+
+    <com.codesgood.views.JustifiedTextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:lineSpacingExtra="7dp"
+        android:textSize="15dp"
+        android:text="According to the report submitted by Suresh Tendulkar Committee (2005), people who earn Rs.1,000 per month (Rs. 33 per day) and are residing in Urban Ereas are considered to be Under The BPL category.The BPL for Rural areas was fixed at Rs. 816 Per Month (Rs. 27 per day).
+As per the above report,BPL Candidates must be given exemption from paying the application fee.For instance,NLU Delhi exempts application fee for AILET exam for Candidates who fall under the BPL category.Instead of implementing the same, NLU consortium has fixed a higher application fee for BPL category."/>
+</LinearLayout>
+
+</ScrollView>

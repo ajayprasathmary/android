@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:id="@+id/news1"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/rectangle_border_black_border"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLAT 2019: Higher Application Fee for BPL Category"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        />
+    <ImageView
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/news1"
+        android:layout_height="150dp" />
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/news2"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/rectangle_border_black_border"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLAT 2019 Important Dates: Exam Likely to be Conducted on May 12"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            />
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/news2"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/news3"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/rectangle_border_black_border"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New National Law University Established in Jabalpur"
+             android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            />
+        <ImageView
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/news3"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

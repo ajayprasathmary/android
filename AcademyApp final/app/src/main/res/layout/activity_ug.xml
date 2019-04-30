@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_margin="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="PG Programme"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#0563c2"
+        />
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.codesgood.views.JustifiedTextView
+            android:lineSpacingExtra="7dp"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. The Candidates must have minimum percentage of marks in the qualifying examination as under:"
+            >
+
+        </com.codesgood.views.JustifiedTextView>
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fifty Five Percent (55%) Marks in Case of Candidates Belonging to Unreserved/OBC/Specially Abled Persons (SAP) and Other Categories"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fifty Percent (50%) Marks in Case of Candidates Belonging to Scheduled Caste/Scheduled Tribe (SC/ST) Categories"
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:text="2. The Candidate must have passed/appeared in the final semester/final year examination of the qualifying examination on the date of His/Her admission."
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. In case of candidates who have appeared in the qualifying examination, He/She may submit His/Her final result of qualifying examination within the time frame prescribed by the respective University/Institute. Till then such Candidates may be given provisional admission."
+            />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. In Case of equal marks, The break of tie shall be by procedure and order as under:"
+            />
+        <TextView
+            android:drawableLeft="@drawable/bullat"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Higher age"
+            />
+        <TextView
+            android:drawableLeft="@drawable/bullat"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Computerized draw of lots."
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.No upper age limit is prescribed for appearing in CLAT-2018."
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

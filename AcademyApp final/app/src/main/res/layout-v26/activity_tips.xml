@@ -1,0 +1,49 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text="Speed and Accuracy "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_two"
+        android:layout_marginEnd="10dp"
+        android:justificationMode="inter_word"
+        android:text=" The essential factor which will definitely help you make it to the merit list is maintaining speed and accuracy in the exam. Since the exam is of 2 hours in which 150 questions need to be solved, the candidate should try to solve the questions within a minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tip_one"
+        android:layout_gravity="right"
+        android:layout_marginEnd="5dp"
+        android:text="Time management  "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

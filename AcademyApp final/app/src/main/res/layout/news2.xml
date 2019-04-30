@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLAT 2019 Important Dates: Exam Likely to be Conducted on May 12"
+            android:textColor="#080bf4"
+            android:textStyle="bold"
+            android:textSize="20dp"
+                      />
+
+        <com.codesgood.views.JustifiedTextView
+            android:id="@+id/justifiedtest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="7dp"
+            android:padding="10dp"
+            android:text="CLAT 2019 is likely to be conducted by National Law University (NLU), odisha.
+CLAT 2019 is expected to be held on may 12, 2019.
+The CLAT 2019 registration is likely to start from 1st January 2019."
+             android:textSize="15dp" />
+
+        <com.codesgood.views.JustifiedTextView
+
+            android:id="@+id/justifiedtes1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="7dp"
+            android:text="CLAT is a National-Level entrance exam for admission to the undergraduate and postgraduate law programmes. CLAT also known as Common Law Admission Test, is expected to be conducted by National Law University (NLU), Odisha in 2019. The computer-based test (online) is a gateway for admission to the 18 participating National Law Universities (NLUs) offering various undergraduate and postgraduate law programmes.
+
+The tentative CLAT 2019 exam date is May 12, 2019.the registrations for the CLAT 2019 will begin from the first week of january 2019 and will end in the last week of march 2019 (tentative).Candidates would be able to access their CLAT admit aard 2019 on the official website of CLAT 2019.On the basis of CLAT 2019, Qualified Candidates would be able to get admission in the top law colleges of india."
+            android:padding="10dp"/>
+
+         </LinearLayout>
+
+</ScrollView>

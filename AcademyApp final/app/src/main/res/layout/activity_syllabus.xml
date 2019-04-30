@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLAT LLB Syllabus"
+        android:textSize="20dp"
+
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#060363"
+        />
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CLAT LLB exam comprises of 200 questions."
+            />
+        <com.codesgood.views.JustifiedTextView
+
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Each question carries 1 mark,and there is a negative marking of 0.25 marks for each incorrect answer."
+
+            />
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="All the questions are objective in nature."
+            />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Syllabus For English"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#51514f"
+            android:textSize="15dp"
+            />
+        <com.codesgood.views.JustifiedTextView
+
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="5dp"
+            android:text="Tests a Candidate’s proficiency in english.There are 40 questions in this section.The section usually has three major components viz."
+            />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/bullat"
+            android:text="  Vocabulary"
+            />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/bullat"
+            android:text="  Grammar"
+            />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/bullat"
+            android:text="  Comprehension"
+            />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" Syllabus For Mathematics "
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="#51514f"
+            android:textSize="15dp"
+            />
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="5dp"
+            android:text="Helps to understand the fundamental arithmetic skills of Candidates.The level of questions is up to 10th standard.There are 20 questions from this section that are expected to be of easy to moderate level.To score well,Make sure to brush up all the basics formulas and concepts of elementary level."
+            android:textSize="15dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Important Topics:"
+        />
+        <TextView
+            android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/bullat"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:text="  Areas,Volumes"
+        />
+        <TextView android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/bullat"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  Interest,Profit,loss and Discounts"
+        /> <TextView
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/bullat"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  Percentage,Partnership"
+        /> <TextView
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/bullat"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  Graphs,Charts"
+        /> <TextView android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/bullat"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  Permutation,Combination Probability"
+        /> <TextView
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/bullat"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  H.C.F and L.C.M"
+        /> <TextView
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/bullat"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  Clocks and Calendars"
+        /> <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textColor="#51514f"
+        android:textAllCaps="true"
+        android:textSize="15dp"
+        android:text="Syllabus For General Knowledge And Current Affairs"
+        /> <com.codesgood.views.JustifiedTextView
+        android:lineSpacingExtra="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" This section is considered as make it or break it section of the law entrance exam.There are 50 questions from this section that tests a candidates level of awareness within the country and worldwide as well."
+        />
+<TextView
+    android:layout_marginTop="7dp"
+    android:lineSpacingExtra="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="There will be static GK questions as well.Static GK signifies facts about the places,people and things that will remain same in the future as well."
+    />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Syllabus for Logical Reasoning"
+            android:textStyle="bold"
+            android:textColor="#51514f"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="5dp"
+            android:text="This section is devised to evaluate a Candidate’s ability to analytically comprehend different aspects of a situation or scenario and logically derive solutions.A total of 40 duestions are asked in this paper.No visual questions are asked in the section.It covers a variety of logical aptitude questions including syllogism,logical sequences,analogies,etc. "/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Syllabus for Legal Aptitude"
+            android:textStyle="bold"
+            android:textColor="#51514f"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="5dp"
+            android:padding="4dp"
+            android:text="The most interesting area of study among the law aspirants.This section primarily focuses on the legal aptitude of candidates.It covers 50 questions out of the total 200 questions in CLAT." />
+
+        <View
+            android:layout_marginTop="10dp"
+            android:background="#33f734e7"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLAT LLM Syllabus"
+            android:textSize="20dp"
+
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#060363"
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:padding="4dp"
+            android:text="Questions in CLAT LLM are framed from the subjects studied in the bachelors program."
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:text="The level of questions is usually moderate to difficult."
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:text="A Candidate’s comprehension of basic fundamentals of law in their uG degree is tested in the examination."
+            />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:text="Constitutional law and jurisprudence will both have an equal weightage of 50 marks each in paper."
+
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Important Topics:"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/bullat"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:text="  Constitutional law"
+            /> <TextView
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/bullat"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  Philosophy of law"
+        /> <TextView
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/bullat"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="  The tort law "
+        />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/bullat"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  Criminal law "
+            />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/bullat"
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  International law "
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

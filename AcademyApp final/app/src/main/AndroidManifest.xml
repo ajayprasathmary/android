@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.compunetconnections.academy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- <permission -->
+    <!-- android:name="com.example.sampleapp.permission.C2D_MESSAGE" -->
+    <!-- android:protectionLevel="signature" /> -->
+
+    <uses-permission android:name="com.example.sampleapp.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive dataf message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+
+
+    <!-- <uses-permission android:name="com.everest.jewellerapp.permission.C2D_MESSAGE" /> -->
+
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aca"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Application" />
+        <activity android:name=".queries" />
+        <activity android:name=".batches" />
+        <activity android:name=".ExamFinal" />
+        <activity android:name=".results" />
+        <activity android:name=".tips" />
+        <activity android:name=".Dates"/>
+        <activity android:name=".search" />
+        <activity android:name=".Eligibility" />
+        <activity android:name=".Syllabus" />
+        <activity android:name=".PaperMain"/>
+        <activity android:name=".Pdf1"/>
+        <activity android:name=".Pdf2"/>
+        <activity android:name=".Pdf3"/>
+        <activity android:name=".Pdf4"/>
+        <activity android:name=".News"/>
+        <activity android:name=".news1"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+        <activity android:name=".news2"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".news3"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About" />
+        <activity android:name=".detail" />
+        <activity
+            android:name=".TabActivity"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RankList" />
+    </application>
+
+</manifest>

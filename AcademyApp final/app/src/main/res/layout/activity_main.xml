@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.compunetconnections.academy.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <!-- Top Sliding Banners -->
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!--<android.support.v4.view.ViewPager
+                        android:id="@+id/pager"
+                        android:visibility="visible"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentTop="true" />-->
+
+                   <com.synnapps.carouselview.CarouselView
+                       android:id="@+id/carouselview"
+                       android:layout_width="match_parent"
+                       android:layout_height="220dp"
+                       app:fillColor="#FFFFFFFF"
+                       app:pageColor="#00000000"
+                       app:radius="6dp"
+                       app:slideInterval="3000"
+                       app:strokeColor="#FF777777"
+                       app:strokeWidth="1dp"
+
+                       >
+
+                   </com.synnapps.carouselview.CarouselView>
+
+
+                    <!--<com.viewpagerindicator.CirclePageIndicator
+                        android:id="@+id/indicator"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="bottom"
+                        android:padding="10dip"
+                        app:centered="true"
+                        app:fillColor="#ffffff"
+                        app:pageColor="#333131"
+                        app:snap="false" />-->
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:weightSum="10"
+            >
+
+            <LinearLayout
+                android:id="@+id/firstLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="4">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:padding="5dp"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/btn_batches"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="@drawable/button_design_colorprimarydark"
+                        android:gravity="center"
+                        android:text="Batches"
+                        android:layout_weight="2"
+                        android:textColor="@color/white"
+                        android:orientation="vertical"
+                        android:elevation="15dp"
+                        android:onClick="@color/white"
+                        >
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_batch"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Batches"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.5"
+                    android:padding="5dp"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/btn_exam"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="@drawable/button_design_colorprimarydark"
+                        android:gravity="center"
+                        android:layout_weight="2"
+                        android:text="Batches"
+                        android:elevation="15dp"
+                        android:textColor="@color/white"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_exam"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Exams"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/firstLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:gravity="left|center"
+                android:layout_weight="4"
+                android:weightSum="4"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:padding="5dp"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_news"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="@drawable/button_design_colorprimarydark"
+                        android:gravity="center"
+                        android:text="Batches"
+                        android:elevation="15dp"
+                        android:textColor="@color/white"
+                        android:orientation="vertical"
+                        android:layout_weight="2"
+                        >
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_results"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="News"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:padding="5dp"
+                    android:weightSum="2"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="@drawable/button_design_colorprimarydark"
+                        android:gravity="center"
+                        android:text="Batches"
+                        android:elevation="15dp"
+                        android:textColor="@color/white"
+                        android:orientation="vertical"
+                        android:layout_weight="2"
+                        >
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/threestars"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Rank List"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="bottom"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <LinearLayout
+                    android:id="@+id/btn_app"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:text="Application Form"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@color/primary_dark"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_application_form"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Application Form"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/btn_query"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:text="Application Form"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@color/primary_dark"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_query"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Queries"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

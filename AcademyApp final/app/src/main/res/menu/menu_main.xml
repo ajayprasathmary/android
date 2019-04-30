@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ListView
+        android:id="@+id/list_tip"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+
+
+    <ListView
+        android:id="@+id/list_tip1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+
+
+</menu>
